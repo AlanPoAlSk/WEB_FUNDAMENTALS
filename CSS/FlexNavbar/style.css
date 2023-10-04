@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(88, 85, 85);
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bolder; 
+}
+
+.btn {
+    background: gold;
+    font-size: medium;
+    width: 80px;
+    height: 30px;
+    border: 20px;
+    box-shadow: 5px 5px 5px black;
+}
