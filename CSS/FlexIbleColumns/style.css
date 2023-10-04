@@ -1,0 +1,25 @@
+.row{
+    display: flex;
+    text-align: left;
+}
+
+.col {
+    padding: 50px;
+    margin: 10px;
+    background: aquamarine;
+    flex: 1;
+}
+
+.col-2 {
+    padding: 50px;
+    margin: 10px;
+    background: aquamarine;
+    flex: 2;
+}
+
+.col-3 {
+    padding: 50px;
+    margin: 10px;
+    background: aquamarine;
+    flex: 3;
+}
