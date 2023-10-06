@@ -1,0 +1,323 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+.container {
+    width: 900px;
+    height: 900px;
+}
+
+.navbar {
+    height: 50px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: whitesmoke;
+    padding-left: 100px;
+}
+
+.leftside {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0px 40px 0px 185px;   
+}
+
+.left {
+    padding-left: 20px;
+}
+
+.rightside {
+    display: flex;
+    align-items: center;
+    
+}
+
+button {
+    padding: 5px 10px;
+    border-width: 2px;
+    border-color: whitesmoke;
+    background-color: goldenrod;
+    color: whitesmoke;
+    margin-right: 321px;
+}
+
+.myprofile {
+    font-weight: bolder;
+}
+
+/*-----------------------------------------*/
+
+.boxA {
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 110%;
+    padding-left: 100px;
+}
+
+.boxB {
+    width: 1000px;
+    margin-left: 30px;
+    display: flex;
+    padding-left: 100px;
+}
+
+.number1 {
+    height: 280px;
+    width: 500px;
+    margin-right: 20px;
+    margin-left: 150px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+
+.number2 {
+    height: 140px;
+    width: 220px;
+    margin-right: 20px;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+
+.number3 {
+    height: 150px;
+    width: 500px;
+    margin-right: 20px;
+    margin-left: 150px;
+    border: 2px solid black;
+}
+
+.number4 {
+    height: 273px;
+    width: 220px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-left: 150px;
+    position: absolute;
+    top: 200px;
+    left: 664px;
+    border: 2px solid black;
+}
+
+.photo {
+    border-radius: 40px;
+    border-style: double;
+    border-color: 2px solid whitesmoke;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 104px;
+    left: 300px;
+}
+
+.city {
+    padding-bottom: 5px;
+}
+
+.citylogo {
+    height: 20px;
+    width: 11px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.gearedit {
+    height: 22px;
+    width: 18px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+a {
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+
+.stylebox1 {
+    margin: 30px 0px 0px 20px;
+    padding: 10px 0px 0px 0px;
+    
+}
+
+.color  {
+    height: 75px;
+    background-color: goldenrod;
+}
+
+.color2 {
+    display: flex;
+    align-items: center;
+    background-color: rgb(67, 66, 66);
+    color: whitesmoke;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.number {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: grey;
+    background-position: center;
+    border: 2px solid rgb(67, 66, 66);
+    color: whitesmoke;
+    text-align: center;
+    margin-right: 10px;   
+}
+
+.name1 , .name2 {
+    height: 30px ;
+    width: 30px;
+    border-radius: 50%;
+    margin: 15px 0px 0px 10px;
+    
+}
+
+.todd , .phil {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.phil {
+    margin right: 10px;
+}
+
+.sign1 {
+
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: grey;
+    color: whitesmoke;
+    border: 2px solid grey;
+    text-align: center;
+}
+
+.sign2 {
+
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: grey;
+    color: whitesmoke;
+    border: 2px solid grey;
+    text-align: center;
+}
+
+
+.num1 , .num2 {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    
+}
+
+.signA {
+    display: flex;
+}
+
+.signB {
+    display: flex;
+}
+
+.vtwo {
+    margin-left: 60px;
+    margin-right: 2px;
+}
+
+.vone {
+    margin-left: 52px;
+    margin-right: 2px;
+}
+
+/* ------------------------------------------ */
+
+.color3 {
+    height: 30px;
+    background-color: rgb(67, 66, 66);
+    color: whitesmoke;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.course , .date , .belt {
+    margin: 10px 0px 0px 20px;
+    font-weight: bolder;
+}
+
+.course {
+    font-size: large;
+}
+
+.date {
+    color: grey;
+    font-size: medium;
+}
+
+.belt {
+    font-size: medium;
+}
+
+/* ------------------------------ */
+
+.name3 , .name4 , .name5 , .name6 {
+    height: 30px ;
+    width: 30px;
+    border-radius: 50%;
+    margin: 15px 0px 0px 10px;
+}
+
+.num3 , .num4 , .num5 , .num6 {
+    display: flex;
+    align-items: center;
+}
+
+.color4 {
+    height: 40px;
+    background-color: rgb(67, 66, 66);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.secondnumber {
+    border-radius: 50%;
+    width: 55px;
+    height: 20px;
+    background: grey;
+    border: 2px solid rgb(67, 66, 66);
+    color: whitesmoke;
+    text-align: center;
+    margin: 0px 5px 0px 10px;
+
+}
+
+.adrien , .anne , .alayne , .arry {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.conn {
+    font-size: large;
+}
+
+.color5 {
+    border-top: 2px solid rgb(67, 66, 66);
+    padding-left: 12px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+}
