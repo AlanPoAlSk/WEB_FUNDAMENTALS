@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+
+.container {
+    height: 700px;
+    width: 800px;
+    background-color: whitesmoke;
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: whitesmoke;
+    height: 60px;
+    width: 800px;
+}
+
+p {
+    padding: 0px 0px 0px 30px;
+}
+
+button {
+    background: gold;
+    font-size: medium;
+    width: 80px;
+    height: 30px;
+    border: 20px;
+    box-shadow: 5px 5px 5px black;
+    margin: 0px 0px 0px 200px;
+}
+
+div > img {
+    padding: 0px 0px 0px 90px;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 145px;
+    left: 0px;
+    
+
+}
+
+p > img {
+    height: 15px;
+    width: 10px;
+    
+}
+
+h2 {
+    padding: 40px 0px 0px 90px;
+    font-size: x-large;
+
+}
+
+.first {
+    padding: 10px 0px 0px 90px;
+}
+
+.boxB {
+    padding: 70px 0px 0px 30px;
+}
+
+.edu {
+    background-color: rgb(71, 70, 70);
+    color:  whitesmoke;
+    width: 300px;
+    height: 30px;
+    padding: 0px 0px 0px 10px;
+    font-size: larger;
+    margin-left: 60px;
+    margin-bottom: 20px;
+
+}
+.school {
+    margin-left: 40px;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+.date {
+    margin-left: 40px;
+    margin-bottom: 5px;
+    color: rgb(169, 168, 168);
+}
+
+.tbelt {
+    margin-left: 40px;
+}
+
+.color  {
+    height: 100px;
+    width: 350px;
+    background-color:cornflowerblue ;
+    margin: 40px 0px 0px 70px;
+}
+
+
