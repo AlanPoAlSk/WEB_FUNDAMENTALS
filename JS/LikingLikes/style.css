@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.container {
+    height: 800px;
+    width: 1000px;
+}
+
+.user {
+    height: 150px;
+    width: 400px;
+    border: 2px solid black ;
+    margin: 10px 0px 0px 20px;
+}
+
+.first {
+    display: flex;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-left: 25px ;
+
+}
+
+.larger {
+    font-size: larger;
+}
+
+/* .name {
+    margin-right: 50px;
+    margin-bottom: 30px;
+    font-size: x-large;
+} */
+
+.nameMoreSpace {
+    font-size: x-large;
+    margin-bottom: 30px;
+    margin-right: 120px;
+}
+
+.nameLessSpace {
+    font-size: x-large;
+    margin-bottom: 30px;
+    margin-right: 75px;
+}
+
+.name1 {
+    margin: 20px 0px 0px 20px;
+    font-size: x-large;
+}
+
+.likes1 {
+    margin-right: 25px;
+}
+
+.likes2 {
+    margin-right: 37px;
+}
+
+.likes3 {
+    margin-right: 30px;
+}
+
+.second {
+    margin-left: 25px;
+    margin-right: 42px;
+}
+
+button {
+    height: 30px;
+    width: 65px;
+    box-shadow: 5px 5px 5px black ;
+    background-color: goldenrod;
+}
+
+.net {
+    height: 70px ;
+    width: 565px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: xx-large;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+
+.feed {
+    height: 10px;
+    width: 485px;
+    font-size: xx-large;
+    margin-left: 400px;
+    padding-top: 20px;
+}
+
+.bottom {
+    display: flex;
+
+}
+
+.profile {
+    height: 250px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 50px 0px 0px 200px;
+    
+}
+
+img {
+    height: 70px;
+    width: 70px;
+    margin: 25px 0px 20px 40px;
+}
+
+.right {
+    margin-top: 40px;
+}
+
+
+.addAv {
+    margin:10px 15px 15px 20px;
+    font-size: larger;
+}
+
