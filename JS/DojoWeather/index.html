@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather AS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top flex coltop">
+            <h1 class="flx2 bigger2">DojoWeather </h1>
+            <span class="flex flx1 gap">
+                <a href="#" onclick='alert("Loading weather report...")' class="bigger1 styleNone colW">Burbank</a>
+                <a href="#" onclick='alert("Loading weather report...")' class="bigger1 styleNone colW">Chicago</a> 
+                <a href="#" onclick='alert("Loading weather report...")' class="bigger1 styleNone colW">Dallas</a>
+            </span>
+        </div>
+        <div class="second flexB bordBott padd2">
+            <p class="bigger">San Jose</p>
+            <span class="bigger3">show temperature in 
+                <select class="bigbtn" name="temp" id="temp" onchange="changeF(this)">
+                    <option value="celsius">°C</option>
+                    <option value="fahrenheit" >°F</option>
+                </select>   
+            </span>
+        </div>
+        <div class="third flexB">
+            <div class="box1 backC heigher">
+                <ul class="styleNone">
+                    <li class="paddT"><p class="bigger1">Today</p></li>
+                    <li class="paddT"><img src="assets/some_rain.png" alt="rain"></li>
+                    <li class="paddT larger">some rain</li>
+                    <li class="paddT bigger1"><span class="red" id="T1">24°</span> <span class="blue" id="T2">18°</span></li>  
+                </ul>
+            </div>
+            <div class="box2 backC heigher">
+                <ul class="styleNone">
+                    <li class="paddT"><p class="bigger1">Tomorrow</p></li>
+                    <li class="paddT"><img src="assets/some_sun.png" alt="sun"></li>
+                    <li class="paddT larger">some sun</li>
+                    <li class="paddT bigger1"><span class="red" id="T3">27°</span> <span class="blue" id="T4">19°</span></li>  
+                </ul>
+            </div>
+            <div class="box3 backC heigher">
+                <ul class="styleNone">
+                    <li class="paddT"><p class="bigger1">Friday</p></li>
+                    <li class="paddT"><img src="assets/some_clouds.png" alt="cloud"></li>
+                    <li class="paddT larger">some clouds</li>
+                    <li class="paddT bigger1"><span class="red" id="T5">21°</span> <span class="blue" id="T6">16°</span></li>  
+                </ul>
+            </div>
+            <div class="box4 backC heigher">
+                <ul class="styleNone">
+                    <li class="paddT"><p class="bigger1">Saturday</p></li>
+                    <li class="paddT"><img src="assets/some_sun.png" alt="sun"></li>
+                    <li class="paddT larger">some sun</li>
+                    <li class="paddT bigger1"><span class="red" id="T7">26°</span> <span class="blue" id="T8">11°</span></li>  
+                </ul>
+            </div>
+        </div>
+        <div class="forth flexC" id="reMve">
+            <img class="imgCookie" src="assets/cookie.png" alt="cookie">
+            <div class="cookieText">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize <br>content and ads, to provide social media features and to <br> analyse our traffic. <a href="#">Read more...</a> </p>
+            </div>
+            <button class="accept" onclick="reMove()"><p class="bigger3">I Accept</p></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
