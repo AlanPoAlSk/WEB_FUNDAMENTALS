@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    height: 1000px;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.color1 {
+    background: green;
+}
+
+.color2 {
+    background: whitesmoke;
+}
+
+.color3 {
+    background: red;
+}
